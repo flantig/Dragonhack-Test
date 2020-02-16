@@ -1,5 +1,5 @@
-#DragonHack Test Readme
-##Just get familiar with it, we're gonna be using it a lot 
+# DragonHack Test Readme
+## Just get familiar with it, we're gonna be using it a lot 
 
 Alright, here is the test github repo. I'm using the gui to save time since I have some experience using it over the summer. If you choose to do the gui and want to use it, it's really easy to use and cloning it using the grean dropdown on the top right works similarly to a magnet torrent. You'll get a small popup asking you if you want to use a desktop app and the rest is pretty straight forward.
 
@@ -7,7 +7,7 @@ If any of us decide to work on the same file for whatever reason or we commit th
 
 Below is some sample code from work. Just some filler test, I'm messing around with github's readme thing.
 
-'''
+```
 import pandas as pd
 import xlrd as xl
 
@@ -37,4 +37,4 @@ data3 = pd.melt(data2, id_vars=["Date_Time", "ID", "TF Bldg"], var_name='meter_b
 print(data3)
 data2.to_csv(r'S:\Energy\Database Progress\CleanedWorksheets\test3.csv', index=False)
 data3.to_csv(r'S:\Energy\Database Progress\CleanedWorksheets\test2.csv', index=False)
-'''
+```
